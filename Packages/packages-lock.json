@@ -141,15 +141,15 @@
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.services.core": "1.12.5",
-        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0"
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.services.core": "1.12.5"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "17.0.4",
+      "version": "17.0.3",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -164,12 +164,12 @@
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "17.0.4",
+      "version": "17.0.3",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "17.0.4",
-        "com.unity.shadergraph": "17.0.4",
+        "com.unity.render-pipelines.core": "17.0.3",
+        "com.unity.shadergraph": "17.0.3",
         "com.unity.render-pipelines.universal-config": "17.0.3"
       }
     },
@@ -204,8 +204,8 @@
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.services.core": "1.12.4",
-        "com.unity.modules.jsonserialize": "1.0.0"
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.services.core": "1.12.4"
       },
       "url": "https://packages.unity.com"
     },
@@ -221,11 +221,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "17.0.4",
+      "version": "17.0.3",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "17.0.4",
+        "com.unity.render-pipelines.core": "17.0.3",
         "com.unity.searcher": "4.9.3"
       }
     },
