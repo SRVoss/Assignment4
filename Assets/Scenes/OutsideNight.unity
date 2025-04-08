@@ -179,8 +179,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8884615152191893709, guid: 0fe6397bef29d4ec0a3f5f48feaab40e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 158963006}
   m_SourcePrefab: {fileID: 100100000, guid: 0fe6397bef29d4ec0a3f5f48feaab40e, type: 3}
+--- !u!1 &158963005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8884615152191893709, guid: 0fe6397bef29d4ec0a3f5f48feaab40e, type: 3}
+  m_PrefabInstance: {fileID: 96596386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &158963006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158963005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5b1d9ebb9294d9fb7b7a522d10d0cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1185041155
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +262,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
